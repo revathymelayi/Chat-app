@@ -1,0 +1,131 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: white
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main-link{
+    text-decoration: none;
+    color: rgb(34, 33, 32);
+    cursor: pointer;
+    font-size: 15px;
+    background-color: blanchedalmond;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Chat wrapper */
+.wrapper{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.avatar{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: beige;
+
+
+}
+.chat-app{
+    background-color: bisque;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    
+    
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgb(211, 182, 182);
+
+
+}
+.header .name-details{
+  display: flex;  
+}
+
+.header .name-details h4{
+    margin-left: 0.8rem;
+}
+
+/* chat-section */
+.chat-section{
+    padding: 1rem;
+    
+    flex-grow: 1;
+   
+   
+
+}
+.single-chat{
+    display:flex;
+    width:80%;
+    
+}
+.message-details{
+    padding: 0.5rem;
+    background-color: rgb(232, 187, 187);
+    color:ivory;
+    margin-left: 1rem;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.message-details h5{
+    font-weight: 600;
+    color:#322f2f;
+    font-size: 15px;
+}
+
+.message-details p{
+    font-weight: 400;
+    font-size:medium ;
+ 
+}
+
+.message-details small{
+    opacity: 1;
+}
+
+/* enter-message */
+
+.enter-message form{
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   width: 100%;
+   background-color: aliceblue;
+   padding: 8px;
+
+}
+
+
+
+form input{
+    flex-grow: 1;
+    background: none;
+    border:none;
+    outline: none;
+     
+}
